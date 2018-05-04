@@ -1,0 +1,49 @@
+// http://ionicframework.com/docs/theming/
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+
+// Scrollbar theming
+::-webkit-scrollbar {
+  width: 2em;
+}
+
+::-webkit-scrollbar-track {
+  background: #f6d365;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(227, 6, 19, 0.8);
+  border-radius: 0px;
+}
+
+::-webkit-scrollbar-track:hover {
+  background: rgba(255, 237, 0, 1);
+}
+
+::-webkit-scrollbar-thumb:active {
+  //background:rgba(227, 6, 19, 0.8);
+  //border-radius: 100px;
+  box-shadow: 1px 3px darkslategrey;
+}
+
+// Fonts
+* {
+  font-family: "Lucidia Console", Menlo, monospace;
+}
+
+// Font size
+span, h1 {
+  font-size: 2em;
+}

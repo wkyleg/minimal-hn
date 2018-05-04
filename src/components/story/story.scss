@@ -1,0 +1,23 @@
+story {
+  .story-container {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    span {
+      color: darkslategrey;
+      font-size: 2em;
+    }
+    span:hover {
+      color: transparent;
+      font-weight: bold;
+      text-indent: 5px;
+      transition: text-indent 0.5s;
+      text-shadow: 1px 1px rgba(227, 6, 19, 0.8), -1px -1px rgba(255, 237, 0, 1);
+    }
+    span:hover::before {
+      display: inline-block;
+      content: "->";
+    }
+  }
+}
