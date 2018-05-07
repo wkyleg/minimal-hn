@@ -1,5 +1,4 @@
 // http://ionicframework.com/docs/theming/
-
 // App Global Sass
 // --------------------------------------------------
 // Put style rules here that you want to apply globally. These
@@ -13,7 +12,6 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
-
 // Scrollbar theming
 ::-webkit-scrollbar {
   width: 2em;
@@ -26,9 +24,10 @@
 ::-webkit-scrollbar-thumb {
   background: rgba(227, 6, 19, 0.8);
   border-radius: 0px;
+  min-height: 6em;
 }
 
-::-webkit-scrollbar-track:hover {
+::-webkit-scrollbar-track:active {
   background: rgba(255, 237, 0, 1);
 }
 
@@ -40,10 +39,11 @@
 
 // Fonts
 * {
-  font-family: "Lucidia Console", Menlo, monospace;
+  font-family: Menlo, monospace;
 }
 
 // Font size
-span, h1 {
+span,
+h1 {
   font-size: 2em;
 }

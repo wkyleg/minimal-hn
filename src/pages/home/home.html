@@ -7,9 +7,10 @@
       <i>
         minimal hn is a minimalist hacker news reader inspired by
         <a (click)="openInfo()">brutalist design web design</a>. learn more or contribute on
-        <a click="openOnGithub()">github</a>
+        <a (click)="openOnGithub()">github</a>
       </i>
     </p>
+    <div class="divider"></div>
   </div>
 
   <story *ngFor="let storyId of storyIds | async" [id]="storyId">

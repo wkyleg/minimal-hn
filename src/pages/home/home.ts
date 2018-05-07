@@ -30,6 +30,6 @@ export class HomePage implements OnInit {
   }
 
   public openOnGithub(): void {
-    window.open("https://github.com/");
+    window.open("https://github.com/wkyleg/minimal-hn/tree/master/");
   }
 }
