@@ -1,16 +1,10 @@
 $horizontal-padding: 10%;
-
 page-home {
   h1 {
     text-align: center;
-    //text-decoration: underline;
-    //color: rgba(227, 6, 19, 0.8);
     color: transparent;
     text-shadow: 1px 1px rgba(227, 6, 19, 0.8), -1px -1px rgba(255, 237, 0, 1);
     font-weight: bold;
-  }
-  h1:hover {
-    //text-transform: uppercase;
   }
   .info-box {
     border-width: 2px !important;
@@ -20,26 +14,20 @@ page-home {
     margin-right: 5%;
     font-size: 2em;
     text-align: left;
-    //text-decoration: underline;
+    .divider {
+      width: 100%;
+      box-shadow: 1px 3px rgba(227, 6, 19, 0.8);
+      background-color: rgba(255, 237, 0, 1);
+    }
   }
-
   .stories-container {
     width: 100%;
     height: 100%;
-    //padding-left: $horizontal-padding;
-    //padding-right: $horizontal-padding;
   }
   .home-content {
     background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
     padding-left: $horizontal-padding !important;
     padding-right: $horizontal-padding !important;
   }
-  .divider {
-    width: 100%;
-    height: 1px;
-    //border-width: 2px 2px 2px 2px !important;
-    //border-color: darkslategray;
-    box-shadow: 1px 3px rgba(227, 6, 19, 0.8);
-    background-color:rgba(255, 237, 0, 1);
-  }
+
 }
